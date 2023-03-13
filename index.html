@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><h1>VOTE PRO</h1></div>
+            <div class="navitem">
+            <nav>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contacts</a></li>
+                    <li><a href="#">accessories</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+    </header>
+    
+    <div class="form-container">
+        <div class="form">
+            <form id="form" method="post">
+            <label for="name">NAME:</label>
+            <input type="text" name="name" id="nn" placeholder="enter name"><br><br>
+            <label for="regno">REGNO:</label>
+            <input type="number" name="regno" id="rg1" placeholder="enter register number"><br><br>
+            <label for="vote">VOTE:</label><br><br>
+            <input type="radio" name="vote" value="rahul" class="rd1">RAHUL<br>
+            <input type="radio" name="vote" value="modi" class="rd1">MODI<br>
+            <input type="radio" name="vote" value="mohan singh" class="rd1">MOHAN SINGH<br><br>
+            <input onclick="validate()" type="submit" value="submit">
+        </form>
+        </div>
+       
+    </div>
+    <script src="valid.js"></script>
+    
+</body>
+</html>
